@@ -3,6 +3,8 @@
 ## Project Overview
 
 My portfolio showcases my skill and talents of web development and implementing them within this website. I have used my core skills learned in UCB Coding Bootcamp of flexbox, grid, media queries, CSS variables and Javascript. I have also taken initiative to include some outside sources (W3 Schools) functionality such as, a downloadable button for my resume and background implementaion for a more stytlistic feel for the website. 
+
+Features added included Bootstrap styling and a onmouseover javascript function that makes the background interactive.
  
 
 ## Installation

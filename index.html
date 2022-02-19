@@ -12,13 +12,30 @@
 <body>
     <!--Header-->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>  
-    </nav> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Jose Pascual
+          </span>
+        </div>
+      </div>
+    </nav>
   </header>
   <!--Intro Picture and Name-->  
 
@@ -29,7 +46,7 @@
   </div>
 
   <!--About Me-->
-  <main class="about-me-main">
+  <main class="about-me-main container-fluid">
     <section id="about" class="about-me"> 
       <h2>About Me</h2>
         <p>
@@ -45,7 +62,7 @@
           programming, my other interests involves nature and photography. 
           <br><br>
           <button>
-            <a href="assets/JosePascualResumeII.pdf" download>Hire Me</a>
+            <a href="assets/JosePascualResumeII.pdf" download>My Resume</a>
           </button> 
         </p> 
     </section>
@@ -58,55 +75,58 @@
   <hr class="division">
   
   <!--Projects-->
-  <section id="projects">
-    <h2>Projects</h2>
-  </section>
-
-  <figure>
-    <section class="my-projects">
-      <div class="project-title">
-        <a href="https://github.com/PentaZoned/feed-me">
-          Feed Me Restaurant App
-        </a>
-      </div>
-      <a href="https://pentazoned.github.io/feed-me/">
-        <img src="assets/images/demoss.PNG" class="project-image">
-      </a>  
+  <div class="container-fluid">
+    <section id="projects">
+      <h2>Projects</h2>
     </section>
 
-    <section class="my-projects">
-      <figcaption class="project-title"> 
-        <a href="https://github.com/plotinusspascual/refactoring-client-site">
-          Refactoring Client Site
-        </a>
-      </figcaption>
-      <a href="https://plotinusspascual.github.io/refactoring-client-site/">
-        <img src="assets/images/project1.PNG" class="project-image">
-      </a>
-    </section>
+    <figure>
+      <section class="my-projects">
+        <div class="project-title">
+          <a href="https://github.com/PentaZoned/feed-me">
+            Feed Me Restaurant App
+          </a>
+        </div>
+        <a href="https://pentazoned.github.io/feed-me/">
+          <img src="assets/images/demoss.PNG" class="project-image">
+        </a>  
+      </section>
 
-    <section class="my-projects">
-      <div class="project-title">
-        <a href="https://github.com/plotinusspascual/group-mini-project">
-          CSS StyleSheet Cheat Sheet
+      <section class="my-projects">
+        <figcaption class="project-title"> 
+          <a href="https://github.com/plotinusspascual/refactoring-client-site">
+            Refactoring Client Site
+          </a>
+        </figcaption>
+        <a href="https://plotinusspascual.github.io/refactoring-client-site/">
+          <img src="assets/images/project1.PNG" class="project-image">
         </a>
-      </div>
-      <a href="https://plotinusspascual.github.io/group-mini-project/">
-        <img src="assets/images/project2.PNG" class="project-image">
-      </a>  
-    </section>
+      </section>
 
-    <section class="my-projects">
-      <figcaption class="project-title"> 
-        <a href="https://github.com/plotinusspascual/work-day-scheduler">
-          Work Day Scheduler
+      <section class="my-projects">
+        <div class="project-title">
+          <a href="https://github.com/plotinusspascual/group-mini-project">
+            CSS StyleSheet Cheat Sheet
+          </a>
+        </div>
+        <a href="https://plotinusspascual.github.io/group-mini-project/">
+          <img src="assets/images/project2.PNG" class="project-image">
+        </a>  
+      </section>
+
+      <section class="my-projects">
+        <figcaption class="project-title"> 
+          <a href="https://github.com/plotinusspascual/work-day-scheduler">
+            Work Day Scheduler
+          </a>
+        </figcaption>
+        <a href="https://plotinusspascual.github.io/work-day-scheduler/">
+          <img src="assets/images/Work_Day_Scheduler.gif" class="project-image">
         </a>
-      </figcaption>
-      <a href="https://plotinusspascual.github.io/work-day-scheduler/">
-        <img src="assets/images/Work_Day_Scheduler.gif" class="project-image">
-      </a>
-    </section>
-  </figure>  
+      </section>
+    </figure>     
+  </div>
+ 
     
     <!--Contact Info-->
     <section id="contact">

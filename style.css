@@ -1,3 +1,9 @@
 .container-fluid{
   width: 80%;
 }
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
